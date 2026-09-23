@@ -1,8 +1,8 @@
 # ==============================================================================
 # ATIVIDADE - PESQUISA DE OPINIÃO (TUDOWEB)
 # Autor: Michael Silva
-# Objetivo: Coletar a opinião de 50 clientes e exibir a contagem de respostas.
-# Nota para o teste: Para testar com 10 pessoas, altere o número 50 para 10 no range.
+# Objetivo: Coletar a opinião de entrevistados e exibir a contagem de respostas.
+# Nota para o teste: Alterado para 1 entrevistado para validação rápida do programa.
 # ==============================================================================
 
 # Boas-vindas ao sistema
@@ -12,9 +12,8 @@ print("=== PESQUISA DE SATISFAÇÃO DE ATENDIMENTO - TUDOWEB ===")
 quantidade_excelente = 0
 quantidade_ruim = 0
 
-# Estrutura de repetição "for" para coletar os dados dos 50 entrevistados
-# O comando range(1, 51) faz o programa repetir exatamente 50 vezes (de 1 a 50)
-TOTAL_ENTREVISTADOS = 50
+# Definição do total de entrevistados (Ajustado para 1 entrevistado para teste)
+TOTAL_ENTREVISTADOS = 1
 
 for i in range(1, TOTAL_ENTREVISTADOS + 1):
     print(f"\n--- Entrevistado {i} de {TOTAL_ENTREVISTADOS} ---")
